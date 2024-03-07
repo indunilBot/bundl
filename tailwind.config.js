@@ -6,7 +6,7 @@ export default {
       fontFamily: {
         subscription: ["Urbanist", "sans-serif"],
         teko: ["Teko", "sans-serif"],
-        space : ["Space Grotesk", "sans-serif"],
+        space : ["Space Grotesk"],
       },
       
       screens: {

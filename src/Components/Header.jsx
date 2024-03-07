@@ -3,23 +3,23 @@ import { Dialog, Popover, Transition } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { Link } from "react-router-dom";
 import Logo from "../assets/Logo.png";
+import BtnIcon from '../assets/Vector.png'
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="">
+    <header className="fixed flex w-full py-8 bg-gradient-to-t from-neutral-900 to-neutral-950 ">
       <nav
-        className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
+        className="mx-auto flex max-w-full items-center justify-center  p-6 lg:px-8"
         aria-label="Global"
       >
-        <div className="flex lg:flex-1">
-          <Link to="/" className="-m-1.5 p-1.5">
-            {" "}
-            {/* Replace anchor with Link */}
-            <img className="h- w-auto " src={Logo} alt="" />
+        {/* <div className="flex lg:flex-1"> */}
+          <Link to="/" className="-m-1 p-1">
+            
+            <img className=" h w-auto " src={Logo} alt="" />
           </Link>
-        </div>
+        {/* </div> */}
         <div className="flex lg:hidden">
           <button
             type="button"
@@ -45,7 +45,7 @@ export default function Header() {
 
           <Link
             to="/"
-            className=" text-sm font-semibold leading-6 py-2 px-4  text-white"
+            className="text-xl font-space  py-2 px-4  text-white"
           >
             {" "}
             {/* Replace anchor with Link */}
@@ -53,7 +53,7 @@ export default function Header() {
           </Link>
           <Link
             to="/about"
-            className="text-sm font-semibold leading-6 py-2 px-4  text-white"
+            className="text-xl font-space leading-6 py-2 px-4  text-white"
           >
             {" "}
             {/* Replace anchor with Link */}
@@ -61,10 +61,11 @@ export default function Header() {
           </Link>
           <Link
             to="/package"
-            className="text-sm font-semibold leading-6 text-white"
+            className="text-xl font-space leading-6 text-white "
+            
           >
-            <button className="bg-[#6EFF8D] hover:bg-white text-black hover:text-black font-semibold py-2 px-4 rounded-full">
-              Launch App
+            <button className="flex bg-[#6EFF8D] hover:bg-white text-black hover:text-black font-space items-center justify-center gap-3 w-[200px] py-3 px-2 rounded-full ">
+              <span>Launch App</span><img src={BtnIcon}></img>
             </button>
           </Link>
         </Popover.Group>
@@ -98,7 +99,7 @@ export default function Header() {
               <div className="space-y-2 py-6">
                 <Link
                   to="/"
-                  className="mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white "
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-space leading-7 text-white "
                 >
                   {" "}
                   {/* Replace anchor with Link */}
@@ -106,7 +107,7 @@ export default function Header() {
                 </Link>
                 <Link
                   to="/about"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white "
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-space leading-7 text-white "
                 >
                   {" "}
                   {/* Replace anchor with Link */}
@@ -114,7 +115,7 @@ export default function Header() {
                 </Link>
                 <Link
                   to="/package"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white "
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-space leading-7 text-white "
                 >
                   {" "}
                   <button className="bg">

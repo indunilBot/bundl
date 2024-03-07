@@ -4,6 +4,7 @@ import bg1 from "../assets/bg1.jpg";
 import midLogo from "../assets/midLogo.png";
 import flowlogo from "../assets/flowlogo.png";
 import time from "../assets/time.gif";
+import FooterB from '../Components/footer';
 
 function Home() {
     return (
@@ -25,7 +26,7 @@ function Home() {
             </div>
             <img
               src={time}
-              className="absolute  xl:left-[700px] xl:top-[270px] left-[100px] top-[310px]  "
+              className="absolute  xl:left-[950px] xl:top-[330px] left-[100px] top-[310px]  "
               alt="Mid Logo"
             />
             <div className=" text-white font-teko xl:text-[200px] text-6xl  font-bold special:text-9xl relative">
@@ -54,9 +55,13 @@ function Home() {
                 Bundling, Spot Auctioning and Spot Lottery.
               </div>
             </div>
+            
           </div>
+          
         </div>
+        
       </div>
+      
     );
 }
 

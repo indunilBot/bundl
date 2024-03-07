@@ -12,8 +12,8 @@ import pagination from "../assets/pagination.png";
 
 function FooterB() {
   return (
-    <Footer container>
-      <div className="w-full">
+    <Footer container className="fixed bottom-0 left-0">
+      <div className=" w-full">
         <div className="w-full flex items-center justify-center sm:flex sm:items-center sm:justify-between">
           <Footer.Copyright href="#" by="all rights reserved" />
           <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
