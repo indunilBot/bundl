@@ -13,16 +13,16 @@ function manage() {
       }}
     >
       <div className="flex justify-center items-center h-screen ">
-        <div className="p-6 rounded-lg max shadow-lg max-w-3xl 	">
+        <div className="p-6 rounded-lg max shadow-lg max-w-[1200px] 	">
           <img
             src={midLogo}
             className="absolute  transform -translate-y-1/2 xl:right-160 xl:left-20  xl:w-24 w-12 h-auto "
             alt="Mid Logo"
           />
-          <div className="text-white text-center xl:text-8xl text-4xl font-bold special:text-9xl uppercase">
+          <div className="font-teko text-white text-center xl:text-9xl xl:text-[170px] font-bold special:text-9xl uppercase">
             manage your
           </div>
-          <div className="text-white text-center xl:text-7xl text-4xl font-bold special:text-9xl uppercase">
+          <div className="font-teko text-white text-center xl:text-9xl xl:text-[170px] font-bold special:text-9xl uppercase">
             project launch
           </div>
 

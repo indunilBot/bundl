@@ -17,7 +17,7 @@ function Home() {
       >
         <Header />
         <div className="flex justify-center items-center h-screen ">
-          <div className="p-6 rounded-lg max shadow-lg max-w-3xl	">
+          <div className="p-6 rounded-lg max shadow-lg max-w-[1200px]	">
             <div className="text-white justify-start flex items-start text-md font-light special:text-5xl text-center md:text-start xl:text-2xl"
   >
               {" "}
@@ -28,13 +28,13 @@ function Home() {
               className="absolute  xl:left-[700px] xl:top-[270px] left-[100px] top-[310px]  "
               alt="Mid Logo"
             />
-            <div className=" text-white  xl:text-9xl text-6xl  font-bold special:text-9xl relative">
-              <div className="text-center xl:text-start">Project</div>
-              <div className="text-center">Development</div>
+            <div className=" text-white font-teko xl:text-[200px] text-6xl  font-bold special:text-9xl relative">
+              <div className="text-center  xl:text-start">Project</div>
+              <div className="text-center xl:text-start">Development</div>
               {/* Project Development */}
               <img
                 src={midLogo}
-                className="absolute xl:top-3/4  top-[10px] transform -translate-y-1/2 right-0 xl:w-24 w-12 h-auto"
+                className="absolute xl:top-[335px] right-[12px] top-[10px] transform -translate-y-1/2 xl:w-36 w-12 h-auto"
                 alt="Mid Logo"
               />
             </div>
@@ -47,7 +47,7 @@ function Home() {
                 />
               </div>
 
-              <div className=" text-gray-500 xl:text-md py-5 px-2  special:text-xl">
+              <div className="font-space text-gray-500 xl:text-xl py-5 px-2  special:text-xl">
                 Bundl is providing the first ever ecosystem that streamlines
                 your project deployment with a user-friendly interface and
                 versatile tools, featuring Advanced Smart Contract Creation,

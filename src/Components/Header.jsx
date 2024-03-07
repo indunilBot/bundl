@@ -45,7 +45,7 @@ export default function Header() {
 
           <Link
             to="/"
-            className="text-sm font-semibold leading-6 py-2 px-4  text-white"
+            className=" text-sm font-semibold leading-6 py-2 px-4  text-white"
           >
             {" "}
             {/* Replace anchor with Link */}
@@ -98,7 +98,7 @@ export default function Header() {
               <div className="space-y-2 py-6">
                 <Link
                   to="/"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white "
+                  className="mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white "
                 >
                   {" "}
                   {/* Replace anchor with Link */}

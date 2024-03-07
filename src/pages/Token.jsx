@@ -14,13 +14,13 @@ function Token() {
         backgroundPosition: "center",
       }}
     >
-      <div className="flex justify-center items-center xl:h-screen border">
-        <div className="p-6 rounded-lg max shadow-lg max-w-3xl	border w-  ">
-          <div className="text-white text-center xl:text-8xl text-4xl font-bold special:text-9xl uppercase ">
+      <div className="flex justify-center items-center xl:h-screen">
+        <div className="font-teko p-6 rounded-lg max shadow-lg max-w-[1200px]	 ">
+          <div className="text-white text-center xl:text-[160px] font-bold special:text-9xl uppercase ">
             $BUNDL
           </div>
 
-          <div className="text-white text-center xl:text-8xl text-4xl font-bold special:text-9xl uppercase">
+          <div className="text-white text-center xl:text-[160px] font-bold special:text-9xl uppercase">
             T*ken
           </div>
 
@@ -28,12 +28,12 @@ function Token() {
           
 
           {/* new */}
-          <div className="flex justify-center border gap-4 items-stretch ">
+          <div className="flex justify-center gap-2 items-stretch ">
 
               {/* left */}
                 <div className="w-1/2 flex items-center justify-center flex-col gap-2 h-full"> 
 
-                  <div className="flex w-full p-3 backdrop-blur-sm bg-white/15 rounded-2xl ">
+                  <div className="flex w-full p-3 backdrop-blur-sm bg-white/15 rounded-2xl mx-36">
 
                     <img src={wallet} className="w-12 h-12  my-3" />
                     <div className="pl-5 pr-12 py-2 ">
